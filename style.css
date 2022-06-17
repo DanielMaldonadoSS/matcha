@@ -22,23 +22,28 @@ button {
 
 .header > * {
   display: inline-block;
-  font-size: 16px;
   vertical-align: middle;
+  font-size: 16px;
   height: 100%;
   line-height: 45px;
 }
 .header {
-  margin: 40px 20px 0;
+  margin: 20px 20px 20px;
   font-size: 0;
   height: 45px;
   font-family: sans-serif;
 }
 
+.header ul{
+  margin-top: 0;
+}
 .logo > img {
-  width: 15%;
+  width: 20%;
 }
 .logo{
   width: 15%;
+  display: inline-block;
+  vertical-align: auto;
 }
 
 .navbar {
@@ -46,10 +51,12 @@ button {
   text-align: left;
   color: #025157;
   font-weight: 500;
+  height: 45px;
 }
 .navbar li{
   margin: 0 25px;
   color: #025157;
+  
 }
 li {
   display: inline;
@@ -83,11 +90,69 @@ margin-top: 140px;
 text-align: center;
 }
 .main img{
-  width: 80%;
+  width: 40%;
   
 }
 
-.tops{
-  width: 50%;
+.tops img{
+  width:70%;
   display: inline-block;
+  margin-left: 15%;
+}
+
+.promo {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
+}
+
+.fixed-header hr{
+  margin-bottom: 0px;
+}
+
+.publish {
+  /* container styles if any */
+}
+
+.publish h3 {
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.publish > form {
+  display: flex;
+}
+
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
+}
+
+.explanatory-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanatory-video img {
+  width: 80px;
+  margin-top: 5px;
 }
