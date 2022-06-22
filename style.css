@@ -29,18 +29,20 @@ button {
     
   }
 /*______________________________________________ MENU_________________________________________________*/
+
+.header {
+  margin: 20px 20px 20px;
+  font-size: 0;
+  height: 45px;
+  font-family: sans-serif;
+}
+
 .header > * {
   display: inline-block;
   vertical-align: middle;
   font-size: 16px;
   height: 100%;
   line-height: 45px;
-}
-.header {
-  margin: 20px 20px 20px;
-  font-size: 0;
-  height: 45px;
-  font-family: sans-serif;
 }
 
 .header ul{
@@ -223,7 +225,6 @@ li {
 .features .feature-card .feature-image {
   flex: 1;
   width: 40%;
-  position: relative;
   right: -50px;
   height: 80%;
 }
