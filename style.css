@@ -38,7 +38,7 @@ button {
 }
 
 .header > * {
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: middle;
   font-size: 16px;
   height: 100%;
@@ -233,3 +233,14 @@ li {
   margin-top: 0;
   height: 100%;
 }
+
+/* ________________________________SECCION HISTORIAS DE EXITO _________________________________ */
+
+.success-stories {
+  background-color: #67b54b;
+}
+
+.firmas {
+  width: 1em%;
+}
+
