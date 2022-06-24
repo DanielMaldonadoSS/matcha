@@ -58,7 +58,6 @@ button {
 }
 
 .navbar {
-  width: 60%;
   text-align: left;
   color: #025157;
   font-weight: 500;
@@ -74,9 +73,9 @@ li {
 }
 
 .actions {
-  width: 15%;
-  text-align: left;
-  font-size: 20px;
+  
+  text-align: right;
+  font-size: 14px;
   font-weight: 600;
 }
 .actions > * {
@@ -153,7 +152,7 @@ li {
   color: #025157;
   margin-left:0;
   margin-right: 100px;
-  margin-top: 0;
+  /* margin-top: 0; */
 }
 
 .explanatory-video {
