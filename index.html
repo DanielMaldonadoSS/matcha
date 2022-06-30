@@ -51,8 +51,7 @@
     -->
     <section class="fixed-header">
       <header class="header">
-        <nav
-          class="navbar navbar-expand-lg navbar-light" style="background-color: #fffbf7">
+        <nav class="navbar navbar-expand-lg navbar-light ">
           <div class="container-fluid">
             <a class="navbar-brand logo" href="#">
               <img
@@ -79,7 +78,7 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="pricing.html">Pricing</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Customers</a>
@@ -279,16 +278,103 @@
           and consistent performance from their blogs.
         </p>
         <button>Who Uses Matcha?</button>
-        <figure class="firmas">
+        <figure>
           <img
             src="	https://getmatcha.com/wp-content/uploads/2019/09/brands_group.png"
-            alt="brands"
-          />
+            alt="brands"/>
         </figure>
       </article>
-      <article class="stories">
-        <div></div>
-      </article>
+      <article class="stories-carousel">
+        <section class="card-container">
+          <div id="carouselExampleIndicators" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner" style="padding-bottom: 45px;">
+              <div class="carousel-item active">
+                <!--contienen cada uno de los elementos que queremos mostrar en nuestra página (en este caso las etiquetas <img />). 
+                  Por esa razón, este es el lugar perfecto donde insertaremos las tarjetas.-->
+                <!-- Tarjeta 1: Everly -->
+                <div class="card">
+                  <img src="perfil.jpg" class="card-img-top" alt="Maldonado"  />
+                  <div class="card-body">
+                    <div class="card-circle everly">
+                      <img
+                        src="https://www.seekpng.com/png/detail/855-8550591_html-css-javascript-icons.png"alt="html css js"/>
+                    </div>
+                    <h4>Daniel Maldonado</h4>
+                    <h3>He learned WEB pages design in BEDU.</h3>
+                    <div class="results">
+                      <img
+                        src="https://freeiconshop.com/wp-content/uploads/edd/js-solid.png" alt="Cart icon"/>
+                      <p>it's an amazing story</p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <button>See Case Study</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Tarjeta 2: Sea to Summit -->
+              <div class="carousel-item">
+                <div class="card">
+                  <img src="https://getmatcha.com/wp-content/uploads/2019/08/0.jpg" class="card-img-top" alt="Everly">
+                  <div class="card-body">
+                    <div class="card-circle summit">
+                        <img src="https://getmatcha.com/wp-content/uploads/2019/08/SeatoSummitLogo.png" alt="Summit">
+                    </div>
+                        <h4>Sea to Summit</h4>
+                        <h3>
+                            Sea to Summit’s Ecommerce Site Traffic Climbs 189%, New
+                            Subscribers 820%
+                        </h3>
+                    <div class="results">
+                        <img src="https://indyme.com/wp-content/uploads/2020/11/shopping-cart-icon.png" alt="Cart icon">
+                        <p>+327% more popup conversions at a 60% lower cost</p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                      <button>See Case Study</button>
+                  </div>
+               </div>
+              </div>
+              <!-- Tarjeta 3: Mambe -->
+             <div class="carousel-item">
+                <div class="card">
+                    <img src="https://getmatcha.com/wp-content/uploads/2019/06/matt-and-margaret_headshot.png"
+                    class="card-img-top" alt="Everly">
+                    <div class="card-body">
+                       <div class="card-circle mambe">
+                          <img src="https://getmatcha.com/wp-content/uploads/2019/06/mambe-logo-1.png" alt="Mambe">
+                       </div>
+                       <h4>Mambe Waterproof Blankets</h4>
+                       <h3>How Mambe Increased Conversions by 327%, Reduced CPL by 60%</h3>
+                       <div class="results">
+                          <img src="https://indyme.com/wp-content/uploads/2020/11/shopping-cart-icon.png" alt="Cart icon">
+                          <p>+327% more popup conversions at a 60% lower cost</p>
+                       </div>
+                    </div>
+                    <div class="card-footer">
+                      <button>See Case Study</button>
+                    </div>
+                 </div>
+              </div>
+        </div>
+            <div class="carousel-indicators selectores">
+              <!--Estos son los indicadores (líneas) que nos muestran en qué sección estamos por el momento y cuántas 
+                secciones hay dentro del carrusel.-->
+              <button type="button" data-bs-target="#carouselExampleIndicators"data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators"data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" 
+                aria-label="Slide 3"></button>
+            </div>
+          </div>
+        </section>
+      </article> 
     </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous">
+    </script>
   </body>
 </html>

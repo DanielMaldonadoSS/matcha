@@ -6,6 +6,7 @@
 
     .navbar,
     .actions {
+      text-align: center;
       display: none;
     }
 
@@ -70,5 +71,21 @@
   .feature-image {
     display: none;
   }
+  /*_________________________________ SECCION HISTORIAS DE EXITO ____________________________*/
+  .success-stories {
+    flex-direction: column;
+}
+}
 
+@media (max-width: 991px) 
+{
+  .actions,
+  .navbar {
+    text-align: center;
+  }
+
+  .success-stories {
+    flex-direction: column;
+    padding: 5% 15px;
+  }
 }
