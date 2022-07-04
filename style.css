@@ -3,7 +3,7 @@ body {
 }
 /*____________________________________________ INICIO _______________________________________________*/
 h1 {
-  color: #67b54b;
+  color: #025157;
   text-align: center;
   font-size: 4rem;
 }
@@ -20,7 +20,7 @@ button {
 }
 
 .main {
-  margin-top: 140px;
+  margin-top: 250px;
   text-align: center;
   }
 
@@ -392,3 +392,26 @@ posicionará en el margen superior de .card-body */
   width: 100%;
 }
 
+/* _________________________________ SECCION TRY IT _________________________________*/
+
+.try-it {
+  text-align: center;
+  height: 400x;
+  background-color: rgb(150, 209, 120);
+    margin-top: -30px;
+    padding: 5% 5% 2%;
+}
+
+ .bttn {
+  height: 55px;
+  display: block;
+}
+
+.try-it .bttn input {
+  height: 100%;
+  border-radius: 8px;
+  padding: 6px 20px;
+}
+.try-it p{
+  color: #fff;
+}

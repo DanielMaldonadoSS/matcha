@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DanielMaldonadoSS/matcha/issues"
   },
-  "homepage": "https://github.com/DanielMaldonadoSS/matcha#readme"
+  "homepage": "https://github.com/DanielMaldonadoSS/matcha#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
 }
