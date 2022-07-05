@@ -46,6 +46,13 @@
   padding: 12px;
   width: 180px;
   margin-bottom: 15px;
+  color: #ffffff;
+  border: none;
+  background-color:#025157 ;
+}
+
+.blog button:hover{
+  background-color:#67b54b;
 }
 
 /*# sourceMappingURL=output.css.map */

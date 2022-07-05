@@ -1,5 +1,5 @@
 body {
-  background-color: #fffbf7;
+  background-color: #f7f8e2;
 }
 /*____________________________________________ INICIO _______________________________________________*/
 h1 {
@@ -8,19 +8,26 @@ h1 {
   font-size: 4rem;
 }
 
-p {
+.main p {
   color: #8b8b8bcc;
   font-family: verdana;
   font-size: 20px;
 }
 
-button {
+.main button {
   color: #fff;
   background-color: #025157;
+  border: none;
+  margin-left: -5px;
+  border-radius: 0 12px 12px 0;
 }
 
+.main input{
+  border: none;
+  border-radius: 12px 0 0 12px;
+}
 .main {
-  margin-top: 250px;
+  margin-top: 200px;
   text-align: center;
   }
 
@@ -39,6 +46,7 @@ button {
   font-size: 0;
   height: 45px;
   font-family: sans-serif;
+  
 }
 
 .header > * {
@@ -90,12 +98,16 @@ font-weight: 600;
 .actions a {
   color: #67b54b;
 }
+
+.actions a:hover{
+  color:#247705;
+}
 .actions button {
   color: white;
   background-color: #67b54b;
   padding-left: 14px;
   padding-right: 14px;
-  padding-top: 12px;
+  /* padding-top: 12px; */
   padding-bottom: 12px;
   border: 0;
   border-radius: 5px;
@@ -125,6 +137,7 @@ font-weight: 600;
 
 .publish {
   margin-left: 30px;
+  margin-top: -40px;
 }
 
 .promo {
@@ -144,7 +157,7 @@ font-weight: 600;
 }
 
 .publish > p {
-  font-size: 16px;
+  font-size: 18px;
   color: #343434;
   line-height: 1.5;
   margin-bottom: 15px;
@@ -157,8 +170,8 @@ font-weight: 600;
 .publish > form p {
   color: #025157;
   margin-left:0;
-  margin-right: 100px;
-  /* margin-top: 0; */
+  margin-right: 10px;
+  font-size: 20px;
 }
 
 .explanatory-video {
@@ -172,7 +185,19 @@ font-weight: 600;
   margin-top: 5px;
   margin-right: 45px;
 }
-
+.publish input{
+  height: 25px;
+}
+.publish button {
+  height: 25px;
+  color: #fff;
+  background-color: #025157;
+  border: none;
+}
+ 
+.publish button:hover{
+  background-color:#67b54b;
+}
 /*_______________________________________ SECCION FEATURES ________________________________________*/
 
 .features {
@@ -226,6 +251,9 @@ font-weight: 600;
   font-weight: 600;
   text-decoration: none;
 }
+.features .feature-card .feature-content a:hover{
+  color: #247705;
+}
 
 .features .feature-card .feature-image {
   flex: 1;
@@ -255,6 +283,7 @@ font-weight: 600;
 .success-stories .overview {
   flex: 2;
   padding-right: 100px;
+  margin-top: -35px;
 }
 
 .success-stories .overview h2 {
@@ -266,7 +295,7 @@ font-weight: 600;
 
 .success-stories .overview p {
   color: #343434;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 1rem;
 }
@@ -278,6 +307,13 @@ font-weight: 600;
   height: 45px;
   font-weight: 600;
   margin-left: 0;
+  background-color:#025157;
+  color: #fff;
+  border: none;
+}
+
+.success-stories .overview button:hover {
+background-color: #247705;
 }
 .success-stories .overview img {
   width: 500px;
@@ -352,6 +388,10 @@ se vea bien en responsive*/
   border: none;
 }
 
+.success-stories .card .card-footer button:hover{
+  background-color: #67b54b;
+}
+
 .success-stories .card .card-footer {
   background-color: #ffffff;
   color: #fff;
@@ -399,23 +439,107 @@ posicionará en el margen superior de .card-body */
 /* _________________________________ SECCION TRY IT _________________________________*/
 
 .try-it {
-  text-align: center;
-  height: 400x;
+  height: 300px;
+  align-items: center;
   background-color: rgb(150, 209, 120);
-    margin-top: -30px;
-    padding: 5% 5% 2%;
+  text-align: center;
 }
 
- .bttn {
-  height: 55px;
-  display: block;
+.box_tryit{
+width: 70%;
+height: 80%;
+margin-left: 15%;
+margin-right: 15%;
+padding-top: 30px;
 }
 
-.try-it .bttn input {
-  height: 100%;
-  border-radius: 8px;
+ .box_tryit button, input {
+  height: 50px;
   padding: 6px 20px;
 }
-.try-it p{
-  color: #fff;
+
+.box_tryit button:hover{
+  background-color: #247705;
 }
+
+.box_tryit button{
+  border: none;
+  background-color: #025157;
+  color: #fff;
+  margin-left: -5px;
+  margin-top: 2px;
+  border-radius: 0 12px 12px 0;
+}
+
+.box_tryit input{
+  border:none;
+  border-radius: 12px 0 0 12px;
+}
+
+.box_tryit p{
+  color: #fff;
+  font-size: 15px;
+}
+
+/* ________________________________ SECCION CUENTA _______________________________________*/
+
+.container_cuenta{
+  width: 80%;
+  height: 300px;
+  background-color:#025157;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 20px;
+}
+.box_cuenta{
+  height: 300px;
+  align-items: center;
+  justify-content: space-around;
+  display: grid;
+  grid-template: repeat(1, 330px)/ repeat(2, 360px );
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.box_cuenta button:hover{
+    background-color:#247705;
+}
+.colum_cuenta{
+max-width: 100%;
+
+}
+
+.box_cuenta .colum_cuenta h2 {
+  color: #fffbf7;
+  font-size: 2.6rem;
+}
+
+.colum_cuenta input, button{
+  height: 50px;
+}
+
+.colum_cuenta button{
+  background-color: #67b54b;
+  border: none;
+  color: #fff;
+  margin-left: -5px;
+  margin-top: 2px;
+  border-radius: 0 12px 12px 0;
+}
+.colum_cuenta input{
+  border-radius: 12px 0 0 12px;
+  border: none;
+}
+
+.box_cuenta .colum_cuenta p {
+  font-size: 18px;
+  color: #fffbf7;
+}
+
+.colum_cuenta a:hover{
+  color:#67b54b ;
+}
+
+
