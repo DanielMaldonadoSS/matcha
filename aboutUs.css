@@ -38,7 +38,8 @@ body {
   .section-title h1 {
     color: #025157;
     font-family: 'Alegreya', serif;
-    font-weight: 700; }
+    font-weight: 700;
+    font-size: 5rem; }
 
 .feature__img img {
   width: 100%; }
@@ -71,10 +72,10 @@ body {
       position: relative;
       height: 150px;
       width: 150px;
-      margin-bottom: 65px;
+      margin-bottom: 35px;
       /* Estamos agregando la regla de descender y subir al punto inicial */ }
       .feature__title__anchor .flecha .flecha-contenedor .flecha-animada {
-        position: absolute;
+        position: relative;
         animation-name: up-and-down, alrededor;
         animation-duration: 3s;
         animation-timing-function: linear;
