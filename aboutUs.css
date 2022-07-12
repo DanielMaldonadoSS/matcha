@@ -72,10 +72,9 @@ body {
       position: relative;
       height: 150px;
       width: 150px;
-      margin-bottom: 35px;
-      /* Estamos agregando la regla de descender y subir al punto inicial */ }
+      margin-bottom: 65px; }
       .feature__title__anchor .flecha .flecha-contenedor .flecha-animada {
-        position: relative;
+        position: absolute;
         animation-name: up-and-down, alrededor;
         animation-duration: 3s;
         animation-timing-function: linear;
@@ -86,6 +85,8 @@ body {
         .feature__title__anchor .flecha .flecha-contenedor .flecha-animada img {
           width: 130px;
           transform: rotate(-90deg); }
+
+/* Estamos agregando la regla de descender y subir al punto inicial */
 @keyframes up-and-down {
   0% {
     top: 0;
